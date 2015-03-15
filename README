@@ -1,3 +1,6 @@
+THIS README WON'T TELL YOU ABOUT RUNNING THE SERVER (YET) IT'S JUST SO I REMEMBER HOW TO SET UP A STUPID NODE.JS/EXPRESS/SOCKET.IO SERVER IN THE FUTURE
+
+
 1. First thing is to make package.json file.  This will tell npm what packages to install for your application.
 
 2. '$ npm install' will install the dependencies.

@@ -1,0 +1,17 @@
+1. First thing is to make package.json file.  This will tell npm what packages to install for your application.
+
+2. '$ npm install' will install the dependencies.
+
+3. Make a server.js file (this is the file that will be run with '$ node server.js') and add the 3 required calls to bring in express, http, and socket.io.
+
+4. Add a listener (for connections to index) to send back an index.html file.
+
+4.1 Don't forget to call http.listen(port, func) at the bottom to actually run your server.
+
+5. Create your index.html
+
+5.1. If your index.html requires some javascript (as it probably will) then make sure you add a listener to server.js that will sendFile('index.js')
+
+6. Now that you have server code and client code, try running everything to make sure it all works!
+
+7. Don't forget to git 
